@@ -10,6 +10,7 @@ void main()
 	printf("Press R for Rock!\n");
 	printf("Press P for Paper!\n");
 	printf("Press S for Scissors!\n");
+	srand(time(NULL));
 	while(i='Y')
 	{
 		printf("\nPlease select your move : ");
